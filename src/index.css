@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav,
+footer,
+.content {
+  background-color: #0f1214;
+  color: #fff;
+}
+
+footer {
+  padding-top: 3rem;
+  color: #fff;
+}
+
+footer .footer-copyright {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  background-color: #0c0c0c;
+}
+
+.header.col.s8.light {
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.image img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.image.first-image img {
+  bottom: -550px;
+}
+
+.image.second-image img {
+  bottom: -200px;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 1600px) {
+  .image.first-image img {
+    bottom: -400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .image.second-image img {
+    bottom: -100px;
+    left: -450px;
+  }
+}
