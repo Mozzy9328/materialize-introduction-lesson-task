@@ -1,0 +1,43 @@
+.background1 {
+	background-image: url("../images/hero-image.jpg");
+	background-position: left;
+	padding: 60px 0px;
+}
+
+.background2 {
+	background-image: url("../images/Image.jpg");
+}
+
+.wrapper {
+	color: white;
+}
+
+nav {
+	background-color: #000;
+}
+
+.card-horizontal {
+	background-color: #000;
+	color: white;
+	padding: 20px 0px;
+}
+
+@media (max-width: 700px) {
+	.card,
+	.horizontal {
+		flex-direction: column;
+	}
+}
+
+.card {
+	margin: 0;
+}
+
+.card-stacked {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.page-footer {
+	background-color: #000;
+}
